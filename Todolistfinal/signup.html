@@ -1,0 +1,52 @@
+
+<html>
+<head>
+<title> Sign up </title>
+<link rel="stylesheet" href="signup.css">
+
+</head>
+<body style="text-align: center;height: 100%;">
+<script src="signup.js"></script>
+    <h1>Sign-Up Page</h1>
+    <div class="signup">
+        <form action="signin.html" method="post" onsubmit="return storeCredentials()">
+            <table style="margin: auto;" cellpadding="20">
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="confirmPassword">Confirm Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" id="submit">Submit</button><br><br><br>
+                    </td>
+                    <td>
+                        <a href="signin.html">Sign-In</a>
+                    </td>
+                </tr>
+                
+            </table>
+            
+        </form>
+        
+    </div>
+</body></html>

@@ -1,0 +1,41 @@
+<head>
+
+<title> Sign in </title>
+</head>
+<body style="text-align: center;height: 100%;">
+
+<script src="signin.js"></script>
+    <h1>Sign-In page</h1><br>
+    <div class="signin">
+        <form action="todolist.html" method="get" onsubmit="return checkCredentials()">
+            <table style="margin: auto;" cellpadding="20">
+                <tr>
+                    <td>
+                        <label for="name">User Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" required><br>
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                        <button type="submit" id="submit">Sign In</button><br><br><br><br><br>
+
+                </td>
+                <td>
+                    <a href="signup.html">Sign Up</a>
+
+                </td>
+            </tr>
+            </table>
+        </form>     
+    </div>
+    </body>
